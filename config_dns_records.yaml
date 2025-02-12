@@ -1,0 +1,16 @@
+- name: brg365.com
+  records:
+  - content: 122.0.0.1
+    name: @
+    type: A
+- name: brg365.com
+  records:
+  - content: @
+    name: www
+    type: CNAME
+  - content: 202.2.23.2
+    name: @
+    type: A
+  - content: 'fe80::51a9:8cb:f44f:2012'
+    name: @
+    type: AAAA
